@@ -445,3 +445,24 @@ footer {
         margin: 0 auto;
     }
 }
+
+/* Google Form Container Styles */
+.google-form-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.google-form-container iframe {
+    width: 100%;
+    min-height: 450px;
+    border: none;
+}
+
+/* Responsive adjustments for the form */
+@media (max-width: 768px) {
+    .google-form-container iframe {
+        min-height: 500px;
+    }
+}
